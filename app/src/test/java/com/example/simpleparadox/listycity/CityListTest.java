@@ -93,4 +93,10 @@ class CityListTest {
 
         assertEquals(1, cityList.countCities());
     }
+
+    @Test
+    void failedTest(){
+        Boolean false_var = false;
+        assertTrue(false_var);
+    }
 }
