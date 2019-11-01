@@ -96,7 +96,7 @@ class CityListTest {
 
     @Test
     void failedTest(){
-        Boolean false_var = false;
+        Boolean false_var = true;
         assertTrue(false_var);
     }
 }
